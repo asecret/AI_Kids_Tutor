@@ -66,12 +66,12 @@ AI_Kids_Tutor/
 
 把整个 `AI_Kids_Tutor` 文件夹拷到对应平台的技能目录，文件夹名建议改为 `ai-kids-tutor`：
 
-| 平台 / Agent | 用户级（全项目可用） | 项目级（仅当前项目） |
-|---|---|---|
-| WorkBuddy | `~/.workbuddy/skills/` | `<项目>/.workbuddy/skills/` |
-| Claude Code | `~/.claude/skills/` | `<项目>/.claude/skills/` |
-| OpenCode | `~/.config/opencode/skills/` | `<项目>/.opencode/skills/` |
-| Cursor / Codex 等 | 各自主机 skills 目录 | 各自主机 skills 目录 |
+| 平台 / Agent       | 用户级（全项目可用）                   | 项目级（仅当前项目）                |
+| ---------------- | ---------------------------- | ------------------------- |
+| WorkBuddy        | `~/.workbuddy/skills/`       | `<项目>/.workbuddy/skills/` |
+| Claude Code      | `~/.claude/skills/`          | `<项目>/.claude/skills/`    |
+| OpenCode         | `~/.config/opencode/skills/` | `<项目>/.opencode/skills/`  |
+| Cursor / Codex 等 | 各自主机 skills 目录               | 各自主机 skills 目录            |
 
 放好后重启 / 新开会话即可生效。
 
