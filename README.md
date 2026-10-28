@@ -79,7 +79,7 @@ AI_Kids_Tutor/
 
 ```bash
 # 以 WorkBuddy 为例，其他平台换目录即可
-git clone https://github.com/<你的账号>/AI_Kids_Tutor.git \
+git clone https://github.com/asecret/AI_Kids_Tutor.git \
   ~/.workbuddy/skills/ai-kids-tutor
 ```
 
