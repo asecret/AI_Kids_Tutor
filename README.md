@@ -141,5 +141,5 @@ MIT。随便用、随便改，注明出处即可。
 
 如果您觉得这个项目对您有帮助，您可以扫描以下二维码进行捐赠：
 <p align="left">
-  <img src=".cache/support-alipay.png" width="20%">
+  <img src="assets/support-alipay.png" width="20%">
 </p>
