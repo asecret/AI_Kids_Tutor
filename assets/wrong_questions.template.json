@@ -1,0 +1,65 @@
+{
+  "_使用说明": "首次运行时，请将本文件复制到【当前工作区根目录】并重命名为 wrong_questions.json。严禁直接在技能安装目录内修改本模板。",
+  "_统一分类字段": {
+    "knowledge_tag": "知识点标签，全学科统一。例：一元一次方程-移项 / 英语-一般过去时 / 语文-古诗文默写",
+    "error_type": "错误类型，全学科统一枚举，取值见 _error_type枚举",
+    "说明": "这两个字段是跨科统计、归类、组卷的唯一依据，三科都必须填"
+  },
+  "_error_type枚举": [
+    "概念理解错误",
+    "运算计算失误",
+    "审题偏差",
+    "答题不规范",
+    "知识遗忘",
+    "超纲未掌握"
+  ],
+  "_其他字段规范": {
+    "record_id": "错题编号，格式 W+年月日+三位序号，如 W20261028-001",
+    "date": "归档日期，YYYY-MM-DD。用于「今天 / 最近N天 / 最近一个月」时间筛选",
+    "subject": "科目，取值 math / chinese / english",
+    "chapter": "所属章节，如 第三章 一元一次方程",
+    "question_snapshot": "题干原文或拍照转录",
+    "student_answer": "学生的实际作答",
+    "correct_answer": "正确答案",
+    "error_diagnosis": "错因诊断。必须具体到思维步骤（如『移项时未变号』），严禁只写『粗心』『不会』",
+    "mastery_status": "待复习 / 已初步掌握 / 已掌握",
+    "review_count": "已生成变式卷次数，整数，新归档填 0",
+    "subject_specific_data": "分科扩展字段（可选），键名固定为 math_fields / chinese_fields / english_fields"
+  },
+  "_分科扩展字段示例": {
+    "math_fields": {
+      "error_type_detail": "运算符号错误",
+      "requires_drawing": false
+    },
+    "english_fields": {
+      "grammar_point": "一般过去时与标志性时间状语",
+      "vocabulary_id": "go -> went（不规则动词过去式）",
+      "question_subtype": "语法填空/动词时态"
+    },
+    "chinese_fields": {
+      "question_subtype": "古诗文默写 / 字词基础 / 现代文阅读 / 作文",
+      "error_type_detail": "错别字 / 理解偏差 / 答题不规范"
+    }
+  },
+  "_完整条目示例": {
+    "record_id": "W20261028-001",
+    "date": "2026-10-28",
+    "subject": "math",
+    "chapter": "第三章 一元一次方程",
+    "knowledge_tag": "一元一次方程-移项变号",
+    "error_type": "运算计算失误",
+    "question_snapshot": "若 2x + 3 = 7，则 x = ?",
+    "student_answer": "x = 3",
+    "correct_answer": "x = 2",
+    "error_diagnosis": "移项时未变号（把 +3 移到右边忘记变成 -3）",
+    "mastery_status": "待复习",
+    "review_count": 0,
+    "subject_specific_data": {
+      "math_fields": {
+        "error_type_detail": "运算符号错误",
+        "requires_drawing": false
+      }
+    }
+  },
+  "wrong_records": []
+}

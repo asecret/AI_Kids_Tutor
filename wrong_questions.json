@@ -1,0 +1,66 @@
+{
+  "_说明": "本文件为【示例数据】，用于展示错题库的字段结构（学生名「高小宝」为虚构）。真实运行时 Agent 会在你的工作区另建副本，不会改动本文件。",
+  "wrong_records": [
+    {
+      "record_id": "W20261028-001",
+      "date": "2026-10-28",
+      "subject": "math",
+      "chapter": "第三章 一元一次方程",
+      "knowledge_tag": "一元一次方程-移项变号",
+      "error_type": "运算计算失误",
+      "question_snapshot": "若 2x + 3 = 7，则 x = ?",
+      "student_answer": "x = 3",
+      "correct_answer": "x = 2",
+      "error_diagnosis": "移项时未变号（把+3移到右边忘记变成-3）",
+      "mastery_status": "待复习",
+      "review_count": 0,
+      "subject_specific_data": {
+        "math_fields": {
+          "error_type_detail": "运算符号错误",
+          "requires_drawing": false
+        }
+      }
+    },
+    {
+      "record_id": "W20261028-002",
+      "date": "2026-10-28",
+      "subject": "english",
+      "chapter": "Module 3",
+      "knowledge_tag": "英语-一般过去时",
+      "error_type": "审题偏差",
+      "question_snapshot": "He usually (go) to school by bus yesterday.",
+      "student_answer": "go",
+      "correct_answer": "went",
+      "error_diagnosis": "时间状语识别错误，看到usually误判为一般现在时，忽略了yesterday是一般过去时",
+      "mastery_status": "待复习",
+      "review_count": 0,
+      "subject_specific_data": {
+        "english_fields": {
+          "grammar_point": "一般过去时与标志性时间状语",
+          "vocabulary_id": "go -> went (不规则动词过去式)",
+          "question_subtype": "语法填空/动词时态"
+        }
+      }
+    },
+    {
+      "record_id": "W20261028-003",
+      "date": "2026-10-28",
+      "subject": "chinese",
+      "chapter": "第二单元",
+      "knowledge_tag": "语文-古诗文默写",
+      "error_type": "知识遗忘",
+      "question_snapshot": "默写《次北固山下》的颔联",
+      "student_answer": "海日生残夜，江春入旧年",
+      "correct_answer": "潮平两岸阔，风正一帆悬",
+      "error_diagnosis": "混淆颔联与颈联，未掌握律诗四联顺序与内容的对应关系",
+      "mastery_status": "待复习",
+      "review_count": 0,
+      "subject_specific_data": {
+        "chinese_fields": {
+          "question_subtype": "古诗文默写",
+          "error_type_detail": "知识遗忘"
+        }
+      }
+    }
+  ]
+}

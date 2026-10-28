@@ -1,0 +1,28 @@
+{
+  "student_info": {
+    "name": "高小宝",
+    "grade": "初一",
+    "term": "上册",
+    "subjects": {
+      "math": {
+        "textbook_version": "人教版",
+        "current_chapter": "第三章 一元一次方程",
+        "enabled": true
+      },
+      "chinese": {
+        "textbook_version": "部编版",
+        "current_chapter": "第二单元",
+        "enabled": false
+      },
+      "english": {
+        "textbook_version": "外研版",
+        "current_chapter": "Module 3",
+        "enabled": false
+      }
+    }
+  },
+  "settings": {
+    "default_difficulty": "中等偏上",
+    "export_format": "auto"
+  }
+}

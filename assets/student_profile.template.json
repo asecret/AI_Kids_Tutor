@@ -1,0 +1,33 @@
+{
+  "_使用说明": "首次运行时，请将本文件复制到【当前工作区根目录】并重命名为 student_profile.json，再填写内容。严禁直接在技能安装目录内修改本模板。",
+  "_grade取值": "小学一年级 ~ 高中三年级，或简写如 初一 / 六年级",
+  "_term取值": "上册 / 下册",
+  "_enabled说明": "true=该科目启用，false=暂不使用",
+  "student_info": {
+    "name": "",
+    "grade": "",
+    "term": "上册",
+    "subjects": {
+      "math": {
+        "textbook_version": "人教版",
+        "current_chapter": "",
+        "enabled": true
+      },
+      "chinese": {
+        "textbook_version": "部编版",
+        "current_chapter": "",
+        "enabled": false
+      },
+      "english": {
+        "textbook_version": "外研版",
+        "current_chapter": "",
+        "enabled": false
+      }
+    }
+  },
+  "_export_format说明": "auto=按环境能力自动探测（推荐，零安装）；word=家长明确要求 .docx 文件；markdown=只要 Markdown",
+  "settings": {
+    "default_difficulty": "中等",
+    "export_format": "auto"
+  }
+}

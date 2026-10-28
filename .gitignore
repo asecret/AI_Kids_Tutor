@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 教材 PDF 不入库（体积大，且属个人资产）
+textbooks/*.pdf
+textbooks/*.PDF
+
+# 运行时生成的索引（每次自动扫描重建）
+textbooks/manifest.json
+
+# 编辑器 / 临时目录
+.cache/
+.vscode/
+.idea/
+*.swp

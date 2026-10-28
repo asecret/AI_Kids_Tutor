@@ -1,0 +1,21 @@
+{
+  "_使用说明": "运行时复制到【当前工作区】的 ./textbooks/manifest.json。若该文件不存在，Agent 会扫描 textbooks/ 目录并按命名规范自动生成，家长无需手写。",
+  "_命名规范": "科目_年级学期_版本.pdf，例：math_七上_人教版.pdf、chinese_七上_部编版.pdf、english_七上_外研版.pdf",
+  "_存放方式": "所有 PDF 平铺在 textbooks/ 根目录，不建子目录",
+  "_subject取值": "math / chinese / english",
+  "_grade取值": "与 student_profile.json 保持一致，如 初一 / 七年级",
+  "_chapters说明": "可选。填写后，家长说「第三章」时可直接校验该章节是否存在及准确名称，无需翻 PDF",
+  "_条目示例": {
+    "subject": "math",
+    "grade": "初一",
+    "term": "上册",
+    "version": "人教版",
+    "file": "math_七上_人教版.pdf",
+    "chapters": [
+      "第一章 有理数",
+      "第二章 整式的加减",
+      "第三章 一元一次方程"
+    ]
+  },
+  "textbooks": []
+}
